@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html>
 
 <!--
@@ -23,13 +24,10 @@
 
     <body>
 
-
         <!-- BEGIN: MAIN -->
         <div class="main">
 
-
             <?php require("navigation.php"); ?>
-
             <?php require("slider.php"); ?>
 
 
@@ -53,19 +51,19 @@
                 <ul class="lines">
 
                     <li>
-                        <img data-original="Images/zoom-architecture.png" src="Images/loading.png" class="image-right thumb lazy" style="border:none">
+                        <img alt="architecture" data-original="Images/zoom-architecture.png" src="Images/loading.png" class="image-right thumb lazy" style="border:none">
 
-                        <p class="subtitle" >In a nutshell</p>
+                        <p class="subtitle">In a nutshell</p>
                         <p>Archipel is a solution to manage and supervise virtual machines. No matter if you have a few locally on your
                         computer or thousands through data centers, Archipel is a central solution to manage them all. You can perform
                         all basic virtualization commands and many other things like live migration, VMCasts, packages, etc.</p>
 
-                        <p class="subtitle" >Real time</p>
+                        <p class="subtitle">Real time</p>
                         <p>Archipel uses XMPP for all communication. There is no webservice or custom protocol. You just need at
-                        least one XMPP server — like eJabberd — to start playing with it. This allows Archipel to work completely
-                        real time. You never have to refresh the user interface. You'll be notified as soon as something happens.
-                        You can even use your favorite chat clients to command your infrastructure. Isn't it great to be able to
-                        open a chat conversation with your virtual machine and say things like "How are you today?" or
+                        least one XMPP server — like <a href="http://www.process-one.net/en/ejabberd/">eJabberd</a> — to start playing with it.
+                        This allows Archipel to work completely real time. You never have to refresh the user interface. You'll be notified as
+                        soon as something happens. You can even use your favorite chat clients to command your infrastructure. Isn't it great
+                        to be able to open a chat conversation with your virtual machine and say things like "How are you today?" or
                         "Hey, please reboot"?</p>
 
                     </li>
@@ -74,22 +72,22 @@
 
                         <div class="separator" ></div>
 
-                        <img data-original="Images/zoom-creation.png" src="Images/loading.png"  class="image-right thumb lazy"/>
+                        <img alt="VM creation" data-original="Images/zoom-creation.png" src="Images/loading.png"  class="image-right thumb lazy"/>
 
-                        <p class="title" >Virtual Machines on Demand</p>
+                        <p class="title">Virtual machines on Demand</p>
 
                         <p class="subtitle">All your virtual machines in one place</p>
-                        <p>All hypervisor's virtual machines are displayed into one place. You can see their current state, name
-                        and JID. You can create or remove new ones with a single click. If you have dozens of VMs, you can simply
+                        <p>All hypervisor's virtual machines are displayed into one place. You can see their current state, name and company
+                        related informations. You can create or remove new ones with a single click. If you have dozens of VMs, you can simply
                         filter them.</p>
 
                         <p class="subtitle">Name generation</p>
-                        <p>Lack of inspiration ? you don't know how to name these 10 virtual machines ? Let Archipel do it. It will
+                        <p>Lack of inspiration? you don't know how to name these 10 virtual machines? Let Archipel do it. It will
                         use one random poetic name elected from the list of all known Asteroids of the solar system.</p>
 
                         <p class="subtitle">Import</p>
                         <p>You already have some existing Libvirt domains you would like to manage with Archipel? No problem. Archipel will
-                        detect existing virtual machines and with one click, you can manage them in a non-destructive way.</p>
+                        detect existing virtual machines you can manage them in a non-destructive way with a single click.</p>
 
                         <div class="clear"></div>
 
@@ -98,9 +96,9 @@
 
                     <li id="slider-target-health">
 
-                        <img data-original="Images/zoom-health.png" src="Images/loading.png" class="image-right thumb lazy"/>
+                        <img alt="Health" data-original="Images/zoom-health.png" src="Images/loading.png" class="image-right thumb lazy"/>
 
-                        <p class="title" >Health Care</p>
+                        <p class="title">Health care</p>
 
                         <p class="subtitle">Real time statistics</p>
                         <p>With Archipel you are aware of the the health of your hypervisors in real-time. Memory usage, CPU load,
@@ -117,16 +115,16 @@
 
                     <li id="slider-target-vnc">
 
-                        <img data-original="Images/zoom-vnc.png" src="Images/loading.png" class="image-right thumb lazy" style="border: none"/>
+                        <img alt="VNC" data-original="Images/zoom-vnc.png" src="Images/loading.png" class="image-right thumb lazy" style="border: none"/>
 
-                        <p class="title" >Built-in VNC Client</p>
+                        <p class="title" >Built-in VNC client</p>
 
-                        <p class="subtitle">VNC Anytime, Anywhere</p>
+                        <p class="subtitle">VNC anytime, anywhere</p>
                         <p>Archipel includes a VNC client right from one of its module. You can control your virtual machine's screens.
                         If your virtual machine is a graphical terminal (Linux Xorg or Windows), you can use your mouse right from
                         your browser to do anything you want, just like you were in front of a real computer.</p>
 
-                        <p class="subtitle">JavaScript Awesomeness</p>
+                        <p class="subtitle">JavaScript awesomeness</p>
                         <p>This VNC client uses only Javascript. You don't need any plugin to run it. Archipel was one of the first
                         project using noVNC as a screen viewer. It is now widely used. Try it, you'll see why.</p>
 
@@ -137,11 +135,11 @@
 
                     <li id="slider-target-definition">
 
-                        <img data-original="Images/zoom-definition.png" src="Images/loading.png" class="image-right thumb lazy"/>
+                        <img alt="Definition" data-original="Images/zoom-definition.png" src="Images/loading.png" class="image-right thumb lazy"/>
 
-                        <p class="title" >The Retail Store</p>
+                        <p class="title" >The retail store</p>
 
-                        <p class="subtitle">Pick Up</p>
+                        <p class="subtitle">Pick-up</p>
                         <p>In this module, you manually build your virtual machine. Three CPUs, 2Go or RAM, one drives,
                         two network cards etc. you pick up what you need.</p>
 
@@ -157,9 +155,9 @@
 
                     <li id="slider-target-vmcasts">
 
-                        <img data-original="Images/zoom-vmcasts.png" src="Images/loading.png"  class="image-right thumb lazy"/>
+                        <img alt="VMCasts" data-original="Images/zoom-vmcasts.png" src="Images/loading.png"  class="image-right thumb lazy"/>
 
-                        <p class="title" id="title2">Here are your VMs, sir</p>
+                        <p class="title" id="title2">Here are your VMs, Sir</p>
 
                         <p class="subtitle">Register to existing VMCasts</p>
                         <p>VMCast are some RSS feeds containing virtual machines. With Archipel, you can register to these VMCasts,
@@ -177,9 +175,9 @@
 
                     <li id="slider-target-controls">
 
-                        <img data-original="Images/zoom-controls.png" src="Images/loading.png"  class="image-right thumb lazy"/>
+                        <img alt="Controls" data-original="Images/zoom-controls.png" src="Images/loading.png"  class="image-right thumb lazy"/>
 
-                        <p class="title">Keep Control</p>
+                        <p class="title">Keep control</p>
 
                         <p class="subtitle">Play, Pause, Stop</p>
                         <p>Archipel provides you with all controls you can imagine for a particular virtual machine. You can start,
@@ -199,7 +197,7 @@
 
                     <li id="slider-target-permissions">
 
-                        <img data-original="Images/zoom-permissions.png" src="Images/loading.png"  class="image-right thumb lazy"/>
+                        <img alt="Permissions" data-original="Images/zoom-permissions.png" src="Images/loading.png"  class="image-right thumb lazy"/>
 
                         <p class="title">Permissions</p>
 
@@ -218,7 +216,7 @@
                     </li>
 
                     <li>
-                        <p class="title">You Want More?</p>
+                        <p class="title">You want more?</p>
                     </li>
 
                 </ul>

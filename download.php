@@ -49,7 +49,7 @@
 
                 <li>
                     <div class="separator"></div>
-                    <p class="title" >Hey! Listen!</p>
+                    <p class="title" >Manual Installation</p>
 
 
                     <div class="right_box" style="height: 200px">
@@ -63,7 +63,7 @@
                         </a>
                     </div>
 
-                    <p class="subtitle">Prerequesites</p>
+                    <p class="subtitle">Hey! Listen!</p>
                     <p>Archipel is simple application, but it needs you to install some tools in order to have it working.
                     You will basically need a Linux machine with QEMU/KVM installed and a running <a href="http://www.process-one.net/en/ejabberd/">Ejabberd</a> (XMPP) server.
                     Don't worry it is kind of easy to install. You can follow instruction from our <a href="https://github.com/archipelproject/archipel/wiki">wiki</a></p>

@@ -17,15 +17,39 @@
 -->
 
 <!-- BEGIN: HEAD -->
+<?php
+function get_page_title()
+{
+    $name = ucfirst(basename($_SERVER["SCRIPT_FILENAME"], ".php"));
+    echo ($name != "Index") ? $name : "Home";
+}
+?>
 <head>
-    <title>Archipel</title>
+
+    <title>Archipel - <?php get_page_title() ?></title>
+
+    <!-- BEGIN: META -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- END: META -->
+
+    <!-- BEGIN: CSS LOADING -->
     <link href="CSS/style.css" rel="stylesheet" type="text/css">
+    <!--[if lt IE 10]>
+    <link href="CSS/style-ie.css" rel="stylesheet" type="text/css">
+    <![endif]-->
+    <!-- END: CSS LOADING -->
+
+    <!-- BEGIN: JS LOADING -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script src="Scripts/main.js"></script>
     <script src="Scripts/lazyload.js"></script>
     <script src="Scripts/content-slider.js"></script>
+    <!-- END: JS LOADING -->
 
+    <!-- BEGIN: FONT LOADING -->
     <link href='http://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+    <!-- END: FONT LOADING -->
+
 </head>
 <!-- END: HEAD -->

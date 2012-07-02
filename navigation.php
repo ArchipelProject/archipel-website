@@ -16,15 +16,28 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 
+<?php
+function should_highlight($associated_file)
+{
+    if (basename($_SERVER["SCRIPT_FILENAME"]) == $associated_file)
+        echo "current";
+}
+
+?>
 <!-- BEGIN: NAVIGATION -->
 <div class="navigation">
-    <a href="index.php"><img src="Images/logo.png" class="logo"/></a>
-    <a class="item" href="index.php">Home</a>
-    <a class="item" href="download.php">Download</a>
-    <a class="item" href="chat.php">Chat</a>
-    <a class="item" href="http://github.com/ArchipelProject/Archipel">Source</a>
-    <a class="item" href="http://archipelproject.tumblr.com">Blog</a>
-    <a class="item" href="http://github.com/ArchipelProject/Archipel/wiki">Documentation</a>
+    <a href="index.php"><img alt="Logo" src="Images/logo.png" class="logo"></a>
+
+    <div class="link-container">
+        <a class="item <?php echo should_highlight("index.php"); ?>" href="index.php">Home</a>
+        <a class="item <?php echo should_highlight("download.php"); ?>" href="download.php">Download</a>
+        <a class="item <?php echo should_highlight("chat.php"); ?>" href="chat.php">Chat</a>
+        <a class="item" href="http://github.com/ArchipelProject/Archipel">Source</a>
+        <a class="item" href="http://archipelproject.tumblr.com">Blog</a>
+        <a class="item" href="http://github.com/ArchipelProject/Archipel/wiki">Documentation</a>
+    </div>
 </div>
+
 <div class="clear"></div>
 <!-- END: NAVIGATION -->
+

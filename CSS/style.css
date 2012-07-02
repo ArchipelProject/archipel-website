@@ -44,6 +44,7 @@ a {
     -moz-transition: 0.2s;
     -o-transition: 0.2s;
     -ms-transition: 0.2s;
+    border: none;
 }
 
 a:hover {
@@ -61,11 +62,10 @@ a:hover {
 /* MAIN */
 .main {
     width: 1024px;
-    margin-top: 20px;
+    margin-top: 95px;
     margin-right: auto;
     margin-left: auto;
     overflow: auto;
-    border-radius: 3px;
 }
 
 
@@ -73,23 +73,42 @@ a:hover {
 /* NAVIGATION */
 
 .navigation {
-    height: 30px;
     text-align: right;
+    height: 100px;
+    width: 1024px;
+    position: fixed;
+    z-index: 1000;
+    left: 50%;
+    margin-left: -512px;
+    top: 0;
+    background-image: -webkit-linear-gradient(bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 30%);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgba(255,255,255,0)), color-stop(0.3, rgba(255,255,255,1)));
+    background-image: -moz-linear-gradient(bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 30%);
+    background-image: -o-linear-gradient(bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 30%);
+    background-image: -ms-linear-gradient(bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 30%);
+    background-image: linear-gradient(to rgba(255,255,255,0) 0%, rgba(255,255,255,1) 30%);
 }
 
 .navigation .logo {
     float: left;
     height: 80px;
+    border: none;
 }
 
-.navigation a {
+.navigation .link-container {
+    margin-top: 30px;
+}
+
+.navigation .link-container .item {
     font-family: 'Questrial';
-}
-
-.navigation .item {
     display: inline;
     margin-left: 10px;
 }
+
+.navigation .link-container .current {
+    color: #95CFFF;
+}
+
 
 
 
@@ -164,9 +183,6 @@ a:hover {
     font-family: Questrial;
 }
 
-
-
-
 /* CONTENT */
 
 .content {
@@ -186,14 +202,12 @@ a:hover {
 .content .title {
     color: #73AFFF;
     font-size: 2em;
-    text-decoration: bold;
     font-family: Questrial;
 }
 
 .content .subtitle {
     color: #4F4F4F;
     font-size: 1.1em;
-    text-decoration: bold;
     font-family: Questrial;
     font-weight: bold;
 
@@ -257,6 +271,10 @@ a:hover {
     border: 3px solid #e8e8e8;
 }
 
+.content .shadow {
+    /*box-shadow: 10px 10px 20px #f3f3f3;*/
+}
+
 
 
 /* BOXES */
@@ -279,7 +297,7 @@ a:hover {
     height: 300px;
     display: table-cell;
     display: inline-block;
-    margin: 10px 10px 20px 10px;
+    margin: 5px 10px 20px 10px;
     overflow: auto;
     padding: 10px;
     box-shadow: 0 0 5px #f3f3f3;
@@ -288,7 +306,6 @@ a:hover {
     -moz-transition: 1s;
     -o-transition: 1s;
     -ms-transition: 1s;
-    cursor: pointer;
     vertical-align: top;
 }
 
@@ -300,8 +317,8 @@ a:hover {
 .box .title {
     font-size: 1.3em;
     color: #73AFFF;
-    text-decoration: bold;
     font-family: Questrial;
+    margin-top: 5px;
 }
 
 .box .thumbnail {
@@ -380,7 +397,7 @@ a:hover {
 .footer {
     margin-top: 0;
     background-color: #f0f0f0;
-    height: 140px;
+    height: 160px;
     background-image: url(../Images/linen-black.png);
     width: 100%;
     text-align: center;
@@ -417,5 +434,10 @@ a:hover {
 
 .footer .column > ul > li {
     margin-left: 2px;
+}
+
+.footer .copyright {
+    font-size: 10px;
+    color: #a2a2a2;
 }
 

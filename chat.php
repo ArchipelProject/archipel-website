@@ -55,7 +55,7 @@
                     </li>
 
                     <li>
-                        <iframe class="chat" src="http://webchat.freenode.net/?channels=archipel&uio=OT10cnVlJjExPTE4NQ6c"></iframe>
+                        <iframe class="chat" src="http://webchat.freenode.net/?channels=archipel&amp;uio=OT10cnVlJjExPTE4NQ6c"></iframe>
                     </li>
                 </ul>
                 <!-- END: LINES -->

@@ -25,5 +25,6 @@
     <a class="buttons" href="#"> </a>
     <a class="buttons" href="#"> </a>
     <a class="buttons" href="#"> </a>
+    <a class="buttons" href="#"> </a>
 </div>
 <!-- END: SLIDER BUTTONS -->
