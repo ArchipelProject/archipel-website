@@ -1,5 +1,5 @@
 <?php
-if (!defined("ARCHIPEL"))
+if (!ARCHIPEL)
     die("Hey buddy, what are you trying to do?");
 ?>
 
