@@ -54,9 +54,11 @@ function get_page_title()
     <!-- END: FONT LOADING -->
 
     <!-- BEGIN: AUTO REFRESH -->
-    <?php if (isset($ARCHIPEL_AUTO_REFRESH)) {?>
-        <meta http-equiv="refresh" content="60;URL=index.php">
-    <? };?>
+    <?php
+    if (isset($ARCHIPEL_AUTO_REFRESH)) {
+        echo '<meta http-equiv="refresh" content="60;URL=index.php">';
+    }
+    ?>
     <!-- END: AUTO REFRESH -->
 
     <!-- BEGIN: FLATTR -->
