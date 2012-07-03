@@ -47,7 +47,7 @@
     </div>
 
     <div class="sliderContent">
-        <img alt="Network" id="slider-button-network" class="image-logo" src="Images/slider-network.png">
+        <img alt="Network" id="slider-button-networks" class="image-logo" src="Images/slider-networks.png">
     </div>
 </div>
 <!-- END: SLIDER -->

@@ -300,7 +300,6 @@ a:hover {
     overflow: auto;
     padding: 10px;
     box-shadow: 0 0 5px #f3f3f3;
-    background-image: url(../Images/linen-clear.png);
     -webkit-transition: 1s;
     -moz-transition: 1s;
     -o-transition: 1s;

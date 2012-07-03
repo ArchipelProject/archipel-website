@@ -21,7 +21,7 @@ function addAnchor(name)
 {
     $("#slider-button-" + name).click(function() {
         $('html, body').animate({
-         scrollTop: $("#slider-target-" + name).offset().top - 20
+         scrollTop: $("#slider-target-" + name).offset().top - 150
      }, 500);
     });
 }
@@ -44,6 +44,7 @@ $(document).ready(function() {
     addAnchor("creation");
     addAnchor("vmcasts");
     addAnchor("controls");
+    addAnchor("networks");
 
     $("img.lazy").lazyload({
         effect : "fadeIn",

@@ -51,7 +51,8 @@
                 <ul class="lines">
 
                     <li>
-                        <img alt="architecture" data-original="Images/zoom-architecture.png" src="Images/loading.png" class="image-right thumb lazy" style="border:none">
+                        <img alt="architecture" data-original="Images/zoom-architecture.png"
+                            src="Images/loading.png" class="image-right thumb lazy" style="border:none; height:254px">
 
                         <p class="subtitle">In a nutshell</p>
                         <p>Archipel is a solution to manage and supervise virtual machines. No matter if you have a few locally on your
@@ -72,7 +73,8 @@
 
                         <div class="separator" ></div>
 
-                        <img alt="VM creation" data-original="Images/zoom-creation.png" src="Images/loading.png"  class="image-right thumb lazy"/>
+                        <img alt="VM creation" data-original="Images/zoom-creation.png"
+                            src="Images/loading.png" class="image-right thumb lazy" style="height:316px"/>
 
                         <p class="title">Virtual machines on Demand</p>
 
@@ -96,7 +98,8 @@
 
                     <li id="slider-target-health">
 
-                        <img alt="Health" data-original="Images/zoom-health.png" src="Images/loading.png" class="image-right thumb lazy"/>
+                        <img alt="Health" data-original="Images/zoom-health.png"
+                            src="Images/loading.png" class="image-right thumb lazy" style="height:246px"/>
 
                         <p class="title">Health care</p>
 
@@ -115,7 +118,8 @@
 
                     <li id="slider-target-vnc">
 
-                        <img alt="VNC" data-original="Images/zoom-vnc.png" src="Images/loading.png" class="image-right thumb lazy" style="border: none"/>
+                        <img alt="VNC" data-original="Images/zoom-vnc.png"
+                            src="Images/loading.png" class="image-right thumb lazy" style="border:none; height:361px"/>
 
                         <p class="title" >Built-in VNC client</p>
 
@@ -135,7 +139,8 @@
 
                     <li id="slider-target-definition">
 
-                        <img alt="Definition" data-original="Images/zoom-definition.png" src="Images/loading.png" class="image-right thumb lazy"/>
+                        <img alt="Definition" data-original="Images/zoom-definition.png"
+                            src="Images/loading.png" class="image-right thumb lazy" style="height:211px"/>
 
                         <p class="title" >The retail store</p>
 
@@ -155,7 +160,8 @@
 
                     <li id="slider-target-vmcasts">
 
-                        <img alt="VMCasts" data-original="Images/zoom-vmcasts.png" src="Images/loading.png"  class="image-right thumb lazy"/>
+                        <img alt="VMCasts" data-original="Images/zoom-vmcasts.png"
+                            src="Images/loading.png"  class="image-right thumb lazy" style="height:271px"/>
 
                         <p class="title" id="title2">Here are your VMs, Sir</p>
 
@@ -175,7 +181,8 @@
 
                     <li id="slider-target-controls">
 
-                        <img alt="Controls" data-original="Images/zoom-controls.png" src="Images/loading.png"  class="image-right thumb lazy"/>
+                        <img alt="Controls" data-original="Images/zoom-controls.png"
+                            src="Images/loading.png"  class="image-right thumb lazy" style="height:230px"/>
 
                         <p class="title">Keep control</p>
 
@@ -197,7 +204,8 @@
 
                     <li id="slider-target-permissions">
 
-                        <img alt="Permissions" data-original="Images/zoom-permissions.png" src="Images/loading.png"  class="image-right thumb lazy"/>
+                        <img alt="Permissions" data-original="Images/zoom-permissions.png"
+                            src="Images/loading.png"  class="image-right thumb lazy" style="height:264px"/>
 
                         <p class="title">Permissions</p>
 
@@ -209,6 +217,25 @@
                         <p class="subtitle">Roles</p>
                         <p>You can create roles. A role is a template of permissions. You can even apply many roles to a user
                         in a row. A new role is published ona PubSub, and all adminstrators can use it for their data center "zones".</p>
+
+                        <div class="clear"></div>
+
+                        <div class="separator"><a class="top-scroller" title="Go to top"></a></div>
+                    </li>
+
+                    <li id="slider-target-networks">
+
+                        <img alt="Networks" data-original="Images/zoom-networks.png" src="Images/loading.png"  class="image-right thumb lazy"/>
+
+                        <p class="title">Networking made easy</p>
+
+                        <p class="subtitle">Route, NAT, isolation. You decide</p>
+                        <p>The hypervisor's network module allows you to split your network into segments in no time and add virtual
+                        machines into them. Network can be in NAT mode or in a routed mode.</p>
+
+                        <p class="subtitle">DHCP and address reservation</p>
+                        <p>You can define several range of IP adresses virtual machines will use. You can also resrve some to given hostname
+                        or MAC address.</p>
 
                         <div class="clear"></div>
 
