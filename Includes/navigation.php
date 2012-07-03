@@ -30,6 +30,13 @@ function should_highlight($associated_file)
 <div class="navigation">
     <a href="index.php"><img alt="Logo" src="Images/logo.png" class="logo"></a>
 
+    <div class="social-buttons slow-fade-out">
+        <a href="http://flattr.com/thing/729509/Archipel-Official-WebSite" target="_blank">
+            <img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" />
+        </a>
+        <a href="https://twitter.com/archipelproject" class="social-button twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @archipelproject</a>
+    </div>
+
     <div class="link-container">
         <a class="item <?php echo should_highlight("index.php"); ?>" href="index.php">Home</a>
         <a class="item <?php echo should_highlight("download.php"); ?>" href="download.php">Download</a>
@@ -37,6 +44,8 @@ function should_highlight($associated_file)
         <a class="item" href="http://github.com/ArchipelProject/Archipel">Source</a>
         <a class="item" href="http://archipelproject.tumblr.com">Blog</a>
         <a class="item" href="http://github.com/ArchipelProject/Archipel/wiki">Documentation</a>
+
+
     </div>
 </div>
 

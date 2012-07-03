@@ -65,7 +65,11 @@ $(document).ready(function() {
     });
 
     addScrollTop();
-    replaceTopLinkWithScroll()
+    replaceTopLinkWithScroll();
+
+    $(".social-buttons").mouseover(function(){
+        $(this).removeClass("slow-fade-out");
+    });
 
     $('.slider').liteSlider({
     content : '.sliderContent', // The sliding content selector. Can be a list also. eg:li

@@ -57,9 +57,25 @@ function get_page_title()
     <?php if (isset($ARCHIPEL_AUTO_REFRESH)) {?>
         <meta http-equiv="refresh" content="60;URL=index.php">
     <? };?>
-
     <!-- END: AUTO REFRESH -->
 
+    <!-- BEGIN: FLATTR -->
+    <script type="text/javascript">
+    /* <![CDATA[ */
+        (function() {
+            var s = document.createElement('script'), t = document.getElementsByTagName('script')[0];
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = 'http://api.flattr.com/js/0.6/load.js?mode=auto';
+            t.parentNode.insertBefore(s, t);
+        })();
+    /* ]]> */
+    </script>
+    <!-- END: FLATTR -->
+
+    <!-- BEGIN: TWITTER -->
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    <!-- END: TWITTER -->
 
 </head>
 <!-- END: HEAD

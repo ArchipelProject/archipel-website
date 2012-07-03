@@ -96,7 +96,7 @@ a:hover {
 }
 
 .navigation .link-container {
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .navigation .link-container .item {
@@ -109,6 +109,41 @@ a:hover {
     color: #95CFFF;
 }
 
+.navigation .social-buttons {
+    display: block;
+    margin-top: 10px;
+    margin-right: -3px;
+    opacity: 0.1;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -o-transition: 1s;
+    -ms-transition: 1s;
+
+}
+
+.navigation .social-buttons:hover {
+    opacity: 1;
+}
+
+@-webkit-keyframes fadeOut {
+    0%   { opacity: 1; }
+    100% { opacity: 0.1; }
+}
+
+@-moz-keyframes fadeOut {
+    0%   { opacity: 1; }
+    100% { opacity: 0.1; }
+}
+@-ms-keyframes fadeOut {
+    0%   { opacity: 1; }
+    100% { opacity: 0.1; }
+}
+
+.navigation .slow-fade-out {
+    -webkit-animation: fadeOut 12s;
+    -moz-animation: fadeOut 12s;
+    -ms-animation: fadeOut 12s;
+}
 
 
 
@@ -430,8 +465,9 @@ a:hover {
     margin-right: 50px;
 }
 
-.footer .column > ul > li {
-    margin-left: 2px;
+.footer .column .list {
+    margin-left: 0;
+    padding-left: 0
 }
 
 .footer .copyright {
