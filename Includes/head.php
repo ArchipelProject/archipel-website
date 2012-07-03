@@ -78,4 +78,4 @@ function get_page_title()
     <!-- END: TWITTER -->
 
 </head>
-<!-- END: HEAD
+<!-- END: HEAD -->
