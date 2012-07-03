@@ -51,5 +51,13 @@ function get_page_title()
     <link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
     <!-- END: FONT LOADING -->
 
+    <!-- BEGIN: AUTO REFRESH -->
+    <?php if (isset($ARCHIPEL_AUTO_REFRESH)) {?>
+        <meta http-equiv="refresh" content="60">
+    <? };?>
+
+    <!-- END: AUTO REFRESH -->
+
+
 </head>
-<!-- END: HEAD -->
+<!-- END: HEAD
