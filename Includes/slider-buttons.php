@@ -16,6 +16,8 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 
+<?php require_once("Includes/restrict.php"); ?>
+
 <!-- BEGIN: SLIDER BUTTONS -->
 <div class="sliderButtons">
     <a class="buttons active" href="#"> </a>

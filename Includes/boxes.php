@@ -16,6 +16,8 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 
+<?php require_once("Includes/restrict.php"); ?>
+
 <!-- BEGIN: BOXES -->
 <ul class="boxes">
     <li class="box">

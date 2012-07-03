@@ -1,3 +1,7 @@
+<?  define("ARCHIPEL", 1);
+    if (!file_exists("maintenance-mode"))
+        header('Location: index.php');
+?>
 <!DOCTYPE html>
 
 <html>
@@ -21,7 +25,7 @@
 -->
 
     <? $ARCHIPEL_AUTO_REFRESH = true; ?>
-    <?php require("head.php"); ?>
+    <?php require("Includes/head.php"); ?>
 
     <body>
 

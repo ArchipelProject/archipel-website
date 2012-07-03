@@ -1,14 +1,12 @@
 #!/bin/bash
 
 if [[ $1 == "online" ]]; then
-    rm -f ./index.php
-    ln -s index.php.online index.php
+    rm -f maintenance-mode
     exit 0
 fi
 
 if [[ $1 == "offline" ]]; then
-    rm -f ./index.php
-    ln -s index.php.offline index.php
+    touch maintenance-mode
     exit 0
 fi
 

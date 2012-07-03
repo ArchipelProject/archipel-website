@@ -1,5 +1,5 @@
 <!--
-    download.php
+    header.php
 
     Copyright (C) 2010 Antoine Mercadal <antoine.mercadal@inframonde.eu>
     This program is free software: you can redistribute it and/or modify
@@ -15,6 +15,8 @@
     You should have received a copy of the GNU Affero General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
+
+<?php require_once("Includes/restrict.php"); ?>
 
 <!-- BEGIN: HEAD -->
 <?php
@@ -53,7 +55,7 @@ function get_page_title()
 
     <!-- BEGIN: AUTO REFRESH -->
     <?php if (isset($ARCHIPEL_AUTO_REFRESH)) {?>
-        <meta http-equiv="refresh" content="60">
+        <meta http-equiv="refresh" content="60;URL=index.php">
     <? };?>
 
     <!-- END: AUTO REFRESH -->

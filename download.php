@@ -1,3 +1,4 @@
+<?php require("Includes/precheck.php"); ?>
 <!DOCTYPE html>
 <html>
 
@@ -19,7 +20,7 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 
-    <?php require("head.php"); ?>
+    <?php require("Includes/head.php"); ?>
 
     <body>
 
@@ -28,7 +29,7 @@
         <div class="main">
 
 
-            <?php require("navigation.php"); ?>
+            <?php require("Includes/navigation.php"); ?>
 
             <!-- BEGIN: MAIN PAGE TITLE -->
             <div class="page_title">
@@ -127,7 +128,7 @@
         </div>
         <!-- END: MAIN -->
 
-        <?php require("footer.php"); ?>
+        <?php require("Includes/footer.php"); ?>
 
     </body>
 
