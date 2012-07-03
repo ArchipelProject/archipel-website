@@ -35,6 +35,19 @@ function addScrollTop()
     });
 }
 
+function replaceTopLinkWithScroll()
+{
+    var topLink = $(".navigation .link-container .current");
+
+    topLink.removeAttr("href");
+    topLink.css("cursor", "pointer");
+    topLink.click(function() {
+        $('html, body').animate({
+         scrollTop: 0
+     }, 500);
+    });
+}
+
 $(document).ready(function() {
 
     addAnchor("permissions");
@@ -52,6 +65,7 @@ $(document).ready(function() {
     });
 
     addScrollTop();
+    replaceTopLinkWithScroll()
 
     $('.slider').liteSlider({
     content : '.sliderContent', // The sliding content selector. Can be a list also. eg:li
