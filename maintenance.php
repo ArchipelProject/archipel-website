@@ -49,7 +49,7 @@
                 <p class="subtitle">We are busy updating the site for you.</p>
 
                 <p class="offline-title">This page will disapear automatically when all operation will be complete. You can have
-                a look at our <a href="http://archipelproject.tumblr.com">blog</a>, maybe we are explaining what's going on.</p>
+                a look at our <a href="http://blog.archipelproject.org">blog</a>, maybe we are explaining what's going on.</p>
                 <p>See you very soon!</p>
             </div>
             <!-- END:  CONTENT -->
