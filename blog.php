@@ -56,11 +56,11 @@ require("Includes/precheck.php");
 
                 <div class="blog-nav">
                 {block:PreviousPage}
-                <a href="{PreviousPage}">&#171; Previous</a> |
+                <a href="{PreviousPage}">&#171; Older</a> |
                 {/block:PreviousPage}
 
                 {block:NextPage}
-                <a href="{NextPage}">Next &#187;</a>
+                <a href="{NextPage}">Newer &#187;</a>
                 {/block:NextPage}
                 </div>
 
