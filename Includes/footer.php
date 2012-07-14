@@ -16,16 +16,21 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 
-<?php require_once("Includes/restrict.php"); ?>
+<?php require_once("Includes/restrict.php");
+
+$ARCHIPEL_BASE_URL = "";
+if (isset($ARCHIPEL_TUMBLR))
+    $ARCHIPEL_BASE_URL = "http://archipelproject.org";
+?>
 
 <!-- BEGIN: FOOTER -->
 <div class="footer">
     <ul class="column">
         <li><p class="title">Navigation</p>
             <ul class="list">
-                <li><a href="index.php">Home</a></li>
-                <li><a href="chat.php">Chat</a></li>
-                <li><a href="download.php">Download</a></li>
+                <li><a href="<?php echo $ARCHIPEL_BASE_URL; ?>/index.php">Home</a></li>
+                <li><a href="<?php echo $ARCHIPEL_BASE_URL; ?>/chat.php">Chat</a></li>
+                <li><a href="<?php echo $ARCHIPEL_BASE_URL; ?>/download.php">Download</a></li>
                 <li><a href="http://archipelproject.tumblr.com">Blog</a></li>
             </ul>
         </li>

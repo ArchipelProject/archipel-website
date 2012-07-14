@@ -25,6 +25,10 @@ function get_page_title()
     $name = ucfirst(basename($_SERVER["SCRIPT_FILENAME"], ".php"));
     echo ($name != "Index") ? $name : "Home";
 }
+
+$ARCHIPEL_BASE_URL = "";
+if (isset($ARCHIPEL_TUMBLR))
+    $ARCHIPEL_BASE_URL = "http://archipelproject.org";
 ?>
 <head>
 
@@ -35,17 +39,24 @@ function get_page_title()
     <!-- END: META -->
 
     <!-- BEGIN: CSS LOADING -->
-    <link href="CSS/style.css" rel="stylesheet" type="text/css">
+    <link href="<?php echo $ARCHIPEL_BASE_URL; ?>/CSS/style.css" rel="stylesheet" type="text/css">
     <!--[if lt IE 10]>
-    <link href="CSS/style-ie.css" rel="stylesheet" type="text/css">
+    <link href="<?php echo $ARCHIPEL_BASE_URL; ?>/CSS/style-ie.css" rel="stylesheet" type="text/css">
     <![endif]-->
+        <?php
+    if (isset($ARCHIPEL_TUMBLR)) {
+        echo '<link href="'.$ARCHIPEL_BASE_URL.'/CSS/tumblr.css" rel="stylesheet" type="text/css">';
+    }
+    ?>
+
     <!-- END: CSS LOADING -->
+
 
     <!-- BEGIN: JS LOADING -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-    <script src="Scripts/main.js"></script>
-    <script src="Scripts/lazyload.js"></script>
-    <script src="Scripts/content-slider.js"></script>
+    <script src="<?php echo $ARCHIPEL_BASE_URL; ?>/Scripts/main.js"></script>
+    <script src="<?php echo $ARCHIPEL_BASE_URL; ?>/Scripts/lazyload.js"></script>
+    <script src="<?php echo $ARCHIPEL_BASE_URL; ?>/Scripts/content-slider.js"></script>
     <!-- END: JS LOADING -->
 
     <!-- BEGIN: FONT LOADING -->
@@ -56,7 +67,7 @@ function get_page_title()
     <!-- BEGIN: AUTO REFRESH -->
     <?php
     if (isset($ARCHIPEL_AUTO_REFRESH)) {
-        echo '<meta http-equiv="refresh" content="60;URL=index.php">';
+        echo '<meta http-equiv="refresh" content="60;URL='.$ARCHIPEL_BASE_URL.'/index.php">';
     }
     ?>
     <!-- END: AUTO REFRESH -->

@@ -25,10 +25,14 @@ function should_highlight($associated_file)
         echo "current";
 }
 
+$ARCHIPEL_BASE_URL = "";
+if (isset($ARCHIPEL_TUMBLR))
+    $ARCHIPEL_BASE_URL = "http://archipelproject.org";
 ?>
+
 <!-- BEGIN: NAVIGATION -->
 <div class="navigation">
-    <a href="index.php"><img alt="Logo" src="Images/logo.png" class="logo"></a>
+    <a href="<?php echo $ARCHIPEL_BASE_URL; ?>/index.php"><img alt="Logo" src="<?php echo $ARCHIPEL_BASE_URL; ?>/Images/logo.png" class="logo"></a>
 
     <div class="social-buttons slow-fade-out">
         <a href="http://flattr.com/thing/729509/Archipel-Official-WebSite" target="_blank">
@@ -38,9 +42,9 @@ function should_highlight($associated_file)
     </div>
 
     <div class="link-container">
-        <a class="item <?php echo should_highlight("index.php"); ?>" href="index.php">Home</a>
-        <a class="item <?php echo should_highlight("download.php"); ?>" href="download.php">Download</a>
-        <a class="item <?php echo should_highlight("chat.php"); ?>" href="chat.php">Chat</a>
+        <a class="item <?php echo should_highlight("index.php"); ?>" href="<?php echo $ARCHIPEL_BASE_URL; ?>/index.php">Home</a>
+        <a class="item <?php echo should_highlight("download.php"); ?>" href="<?php echo $ARCHIPEL_BASE_URL; ?>/download.php">Download</a>
+        <a class="item <?php echo should_highlight("chat.php"); ?>" href="<?php echo $ARCHIPEL_BASE_URL; ?>/chat.php">Chat</a>
         <a class="item" href="http://github.com/ArchipelProject/Archipel">Source</a>
         <a class="item" href="http://archipelproject.tumblr.com">Blog</a>
         <a class="item" href="http://github.com/ArchipelProject/Archipel/wiki">Documentation</a>
