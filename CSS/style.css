@@ -106,7 +106,6 @@ a:hover {
 }
 
 .navigation .link-container .item {
-    font-family: 'Questrial';
     display: inline;
     margin-left: 10px;
 }
@@ -211,7 +210,6 @@ a:hover {
     margin-bottom: 0;
     margin-top:0;
     color: black;
-    font-family: Questrial;
 }
 
 .page_title .subtitle {
@@ -220,7 +218,6 @@ a:hover {
     margin-top: 0;
     color: #333;
     text-shadow: 1px 1px white;
-    font-family: Questrial;
 }
 
 /* CONTENT */
@@ -242,13 +239,11 @@ a:hover {
 .content .title {
     color: #73AFFF;
     font-size: 2em;
-    font-family: Questrial;
 }
 
 .content .subtitle {
     color: #4F4F4F;
     font-size: 1.1em;
-    font-family: Questrial;
     font-weight: bold;
 
 }
@@ -356,7 +351,7 @@ a:hover {
 .box .title {
     font-size: 1.3em;
     color: #73AFFF;
-    font-family: Questrial;
+
     margin-top: 5px;
 }
 
@@ -412,14 +407,12 @@ a:hover {
     color: #4F4F4F;
     font-size: 1.3em;
     margin:0;
-    font-family: Questrial;
 }
 
 .download_button p {
     color: #4F4F4F;
     font-size: 1em;
     margin: 0;
-    font-family: Questrial;
 }
 
 /* CHAT */
@@ -441,7 +434,6 @@ a:hover {
     width: 100%;
     text-align: center;
     color: white;
-    font-family: 'Questrial';
     border-top: 2px solid black;
 }
 
