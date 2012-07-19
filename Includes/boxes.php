@@ -54,14 +54,14 @@
     <li class="box" id="box3">
         <p class="title">Robust</p>
         <img alt="XMPP" data-original="Images/more-xmpp.png" src="Images/loading.png"  class="thumbnail lazy"/>
-        <p>You can use several XMPP servers as replica or as different access points. With the server-to-server feature, you can communicate with entities all over the world. This allows Archipel to be very robust. If a part of your datacenter fails, the rest remains fully operational. Moreover, Archipel is very scalable and makes easy to size your infrastructure in order to fit your needs.</p>
+        <p>You can use several XMPP servers as replica or as different access points. With the server-to-server feature, you can communicate with entities all over the world. This allows Archipel to be very robust. If a part of your datacenter fails, the rest remains fully operational. Moreover, Archipel is scalable and makes easy to size your infrastructure.</p>
         <div class="clear"></div>
      </li>
 
     <li class="box">
         <p class="title">Open Source</p>
         <img alt="Open Source" data-original="Images/more-opensource.png" src="Images/loading.png"  class="thumbnail lazy"/>
-        <p>And guess what? All this work is released under an open source licence (AGPL). So anybody can participate to improve Archipel's code, features and documentation. If you want to enroll, send us an email to explain what you may be able to bring to the project. We use a lot of Open Source software to build Archipel. It is perfectly normal that Archipel is itself open. For the sake of our users!</p>
+        <p>And guess what? All this work is released under an open source licence (AGPL). Anybody can participate to improve Archipel's code, features and documentation. We use a lot of Open Source software to build Archipel. It is perfectly normal that Archipel is itself open. For the sake of our users!</p>
         <div class="clear"></div>
      </li>
 </ul>
