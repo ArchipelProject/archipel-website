@@ -31,7 +31,7 @@ if (isset($ARCHIPEL_TUMBLR))
                 <li><a href="<?php echo $ARCHIPEL_BASE_URL; ?>/index.php">Home</a></li>
                 <li><a href="<?php echo $ARCHIPEL_BASE_URL; ?>/chat.php">Chat</a></li>
                 <li><a href="<?php echo $ARCHIPEL_BASE_URL; ?>/download.php">Download</a></li>
-                <li><a href="http://blog.archipelproject.org">Blog</a></li>
+                <li><a href="http://archipelproject.tumblr.com">Blog</a></li>
             </ul>
         </li>
 

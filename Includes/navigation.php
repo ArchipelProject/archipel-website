@@ -46,7 +46,7 @@ if (isset($ARCHIPEL_TUMBLR))
         <a class="item <?php echo should_highlight("download.php"); ?>" href="<?php echo $ARCHIPEL_BASE_URL; ?>/download.php">Download</a>
         <a class="item <?php echo should_highlight("chat.php"); ?>" href="<?php echo $ARCHIPEL_BASE_URL; ?>/chat.php">Chat</a>
         <a class="item" href="http://github.com/ArchipelProject/Archipel">Source</a>
-        <a class="item" href="http://blog.archipelproject.org">Blog</a>
+        <a class="item" href="http://archipelproject.tumblr.com">Blog</a>
         <a class="item" href="http://github.com/ArchipelProject/Archipel/wiki">Documentation</a>
 
 
