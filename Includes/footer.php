@@ -64,7 +64,7 @@ if (isset($ARCHIPEL_TUMBLR))
 
     </ul>
 
-    <span class="copyright">Copyright &copy; 2012 - Antoine Mercadal</span>
+    <span class="copyright">Copyright &copy; 2010-2013 - Antoine Mercadal</span>
 </div>
 <!-- END: FOOTER -->
 
