@@ -206,7 +206,7 @@
                     <li id="slider-target-permissions">
 
                         <img alt="Permissions" data-original="Images/zoom-permissions.png"
-                            src="Images/loading.png"  class="image-right thumb lazy" style="height:264px"/>
+                            src="Images/loading.png"  class="image-right thumb lazy" style=""/>
 
                         <p class="title">Permissions</p>
 
