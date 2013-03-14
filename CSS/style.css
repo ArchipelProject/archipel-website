@@ -156,7 +156,8 @@ a:hover {
 
 .slider {
     height: 500px;
-    overflow: auto;
+    max-height: 500px;
+    overflow: hidden;
     margin-bottom: 0;
 }
 
