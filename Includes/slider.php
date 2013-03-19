@@ -21,7 +21,7 @@
 <!-- BEGIN: SLIDER -->
 <div class="slider">
     <div class="sliderContent">
-        <iframe class="image-logo promo-video" id="slider-button-video" src="http://player.vimeo.com/video/62181827" width="500" height="281" frameborder style=""</iframe>
+        <iframe class="image-logo promo-video" id="slider-button-video" src="http://player.vimeo.com/video/62181827" frameborder=0></iframe>
     </div>
 
     <div class="sliderContent">
