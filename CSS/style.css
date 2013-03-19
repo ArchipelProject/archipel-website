@@ -197,6 +197,17 @@ a:hover {
     display: table-cell;
 }
 
+.promo-video {
+    width:660px !important;
+    height:372px !important;
+    border-radius: 4px;
+    border: 10px solid black;
+    box-shadow: 0px 0px 5px #5C85DD;
+    background-image: url('../Images/video-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:280px;
+}
 
 /* PAGE TITLE */
 

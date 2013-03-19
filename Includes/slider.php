@@ -21,6 +21,10 @@
 <!-- BEGIN: SLIDER -->
 <div class="slider">
     <div class="sliderContent">
+        <iframe class="image-logo promo-video" id="slider-button-video" src="http://player.vimeo.com/video/62181827" width="500" height="281" frameborder style=""</iframe>
+    </div>
+
+    <div class="sliderContent">
         <img alt="VMs Creation" id="slider-button-creation" class="image-logo" src="Images/slider-vmcreation.png">
     </div>
 

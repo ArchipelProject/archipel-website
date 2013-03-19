@@ -75,7 +75,7 @@ $(document).ready(function() {
     content : '.sliderContent', // The sliding content selector. Can be a list also. eg:li
     width : 1024,            // Width of the slider
     height : 410,           // Height of the slider
-    autoplay : true,        // Autoplay the slider. Values, true & false
+    autoplay : false,        // Autoplay the slider. Values, true & false
     delay : 10,          // Transition Delay. Default 3s
     buttonsClass : 'buttons',   // Button's class
     activeClass : 'active',     // Active class
