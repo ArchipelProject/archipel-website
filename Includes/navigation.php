@@ -38,7 +38,6 @@ if (isset($ARCHIPEL_TUMBLR))
         <a href="http://flattr.com/thing/729509/Archipel-Official-WebSite" target="_blank">
             <img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" />
         </a>
-        <a href="https://twitter.com/archipelproject" class="social-button twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @archipelproject</a>
     </div>
 
     <div class="link-container">
