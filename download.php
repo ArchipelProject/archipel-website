@@ -54,9 +54,9 @@
 
 
                     <div class="right_box" style="height: 200px">
-                        <a class="download_button" href="http://updates.archipelproject.org/archipel-gui-beta5.zip">
+                        <a class="download_button" href="http://updates.archipelproject.org/archipel-gui-beta6.zip">
                             <p class="name">Download UI</p>
-                            <p>Beta 5</p>
+                            <p>Beta 6</p>
                         </a>
                         <a class="download_button" href="http://nightlies.archipelproject.org">
                             <p class="name">Download Nightlies</p>
@@ -90,11 +90,11 @@
                     <p class="title">ANSOS, The ready-to-use Archipel hypervisor</p>
 
                     <div class="right_box" style="height: 400px">
-                        <a class="download_button" href="http://updates.archipelproject.org/ansos/archipel-node-image-2.3.0-0.1.fc16.git4c7e6bf.iso">
+                        <a class="download_button" href="http://updates.archipelproject.org/ansos/archipel-node-image-2.6.fc18.iso">
                             <p class="name">Download ANSOS</p>
                             <p>Fedora Based</p>
                         </a>
-                        <a class="download_button" href="http://updates.archipelproject.org/ansos/archipel-node-image-2.3.0-0.1.el6.git4c7e6bf.iso">
+                        <a class="download_button" href="http://updates.archipelproject.org/ansos/archipel-node-image-2.6.el6.iso">
                             <p class="name">Download ANSOS</p>
                             <p>CentOS Based</p>
                         </a>
