@@ -38,7 +38,7 @@
                 <?php require("Includes/slider-buttons.php"); ?>
 
                 <p class="title">Archipel</p>
-                <p class="subtitle">The future of virtual machine orchestration</p>
+                <p class="subtitle">Future just turned to beta6!</p>
 
             </div>
             <!-- END: MAIN PAGE TITLE -->
