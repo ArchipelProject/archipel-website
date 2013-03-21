@@ -60,7 +60,7 @@
                         </a>
                         <a class="download_button" href="http://nightlies.archipelproject.org">
                             <p class="name">Download Nightlies</p>
-                            <p>Beta 5</p>
+                            <p>Latest Releases</p>
                         </a>
                     </div>
 
