@@ -115,20 +115,30 @@ a:hover {
 }
 
 .navigation .social-buttons {
-    display: block;
+    display: inline-block;
     margin-top: 10px;
     margin-right: -3px;
     opacity: 0.1;
+    vertical-align: middle;
     -webkit-transition: 1s;
     -moz-transition: 1s;
     -o-transition: 1s;
     -ms-transition: 1s;
-
 }
 
 .navigation .social-buttons:hover {
     opacity: 1;
 }
+
+.navigation .social-buttons .button-flattr {
+    margin-bottom: 3px;
+}
+
+.navigation .social-buttons iframe {
+    width: 150px !important;
+    height: 30px !important;
+}
+
 
 @-webkit-keyframes fadeOut {
     0%   { opacity: 1; }

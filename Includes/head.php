@@ -86,6 +86,10 @@ if (isset($ARCHIPEL_TUMBLR))
     </script>
     <!-- END: FLATTR -->
 
+    <!-- START: BITCOIN -->
+    <script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>
+    <!-- END: BITCOIN -->
+
     <!-- BEGIN: TWITTER -->
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
     <!-- END: TWITTER -->

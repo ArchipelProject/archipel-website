@@ -35,9 +35,10 @@ if (isset($ARCHIPEL_TUMBLR))
     <a href="<?php echo $ARCHIPEL_BASE_URL; ?>/index.php"><img alt="Logo" src="<?php echo $ARCHIPEL_BASE_URL; ?>/Images/logo.png" class="logo"></a>
 
     <div class="social-buttons slow-fade-out">
-        <a href="http://flattr.com/thing/729509/Archipel-Official-WebSite" target="_blank">
-            <img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" />
+        <a id="button-flattr" href="http://flattr.com/thing/729509/Archipel-Official-WebSite" target="_blank">
+            <img class="button-flattr" src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" />
         </a>
+        <a class="coinbase-button" data-code="a941d0b9d6a83ef033c632613b3b21b7" data-button-style="custom_small" href="https://coinbase.com/checkouts/a941d0b9d6a83ef033c632613b3b21b7">Donate Bitcoins</a>
     </div>
 
     <div class="link-container">
