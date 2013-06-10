@@ -74,10 +74,10 @@
 
                     <p class="subtitle">Install Agent</p>
                     <p>Agent is pretty easy to install. To get the latest stable release, just run:</p>
-                    <code># easy-install archipel-agent && archipel-initinstall</code>
+                    <code># easy_install archipel-agent && archipel-initinstall</code>
 
                     <p>Later, to update when a new version will be released:</p>
-                    <code># easy-install -U archipel-agent</code>
+                    <code># easy_install -U archipel-agent</code>
 
                     <p>That's a crash course. For a full installation documentation, please visit our <a href="https://github.com/archipelproject/archipel/wiki">wiki</a></p>
 
