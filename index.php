@@ -146,7 +146,7 @@
                         <p class="title" >The retail store</p>
 
                         <p class="subtitle">Pick-up</p>
-                        <p>In this module, you manually build your virtual machine. Three CPUs, 2Go of RAM, one drive,
+                        <p>In this module, you manually build your virtual machine. Three CPUs, 2GiB of RAM, one drive,
                         two network cards etc. you pick up what you need.</p>
 
                         <p class="subtitle">And plug</p>
