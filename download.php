@@ -54,10 +54,6 @@
 
 
                     <div class="right_box" style="height: 200px">
-                        <a class="download_button" href="http://updates.archipelproject.org/archipel-gui-beta6.zip">
-                            <p class="name">Download UI</p>
-                            <p>Beta 6</p>
-                        </a>
                         <a class="download_button" href="http://nightlies.archipelproject.org">
                             <p class="name">Download Nightlies</p>
                             <p>Latest Releases</p>
@@ -73,11 +69,7 @@
                     You don't need any PHP, Ruby or SQL database. Simply put the files in any HTTP served directory.</p>
 
                     <p class="subtitle">Install Agent</p>
-                    <p>Agent is pretty easy to install. To get the latest stable release, just run:</p>
-                    <code># easy_install archipel-agent && archipel-initinstall</code>
-
-                    <p>Later, to update when a new version will be released:</p>
-                    <code># easy_install -U archipel-agent</code>
+                    <p>Agent is pretty easy to install. To get the latest stable release, just follow the <a href="https://github.com/ArchipelProject/Archipel/wiki/Installation%3A-Agent">installation guide</a>.</p>
 
                     <p>That's a crash course. For a full installation documentation, please visit our <a href="https://github.com/archipelproject/archipel/wiki">wiki</a></p>
 
@@ -86,27 +78,11 @@
 
                     <div class="clear"></div>
 
-
                     <p class="title">ANSOS, The ready-to-use Archipel hypervisor</p>
-
-                    <div class="right_box" style="height: 400px">
-                        <a class="download_button" href="http://updates.archipelproject.org/ansos/archipel-node-image-2.6.fc18.iso">
-                            <p class="name">Download ANSOS</p>
-                            <p>Fedora Based</p>
-                        </a>
-                        <a class="download_button" href="http://updates.archipelproject.org/ansos/archipel-node-image-2.6.el6.iso">
-                            <p class="name">Download ANSOS</p>
-                            <p>CentOS Based</p>
-                        </a>
-                    </div>
 
                     <p class="subtitle">What is it?</p>
 
                     <p>Archipel Node Stateless OS (or ANSOS) is a full packaged Linux distribution containing everything you need to boot up new hypervisors from nothing. It allows to configure solid state storage device at startup to store persistent data. All the rest of the OS is a live CD.</p>
-
-                    <p class="subtitle">Team work</p>
-
-                    <p>ANSOS is based on the great work made by <a href="http://ovirt.org/">oVirt Node</a>. We worked together to add options in Node to include Archipel. The result is that ANSOS is not a separate project from oVirt Node. All changes have been merged into the oVirt Node source code. This ensure a continuous support of the Live OS by us, and by the community.</p>
 
                     <p class="subtitle">Build a virtualization platform in a minute</p>
 
